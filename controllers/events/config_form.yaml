@@ -1,0 +1,17 @@
+name: Entries
+modelClass: whilesmarthelpdesk\events\Models\Event
+form: $/whilesmarthelpdesk/events/models/events/fields.yaml
+defaultRedirect: whilesmarthelpdesk/events/events
+create:
+    title: 'whilesmarthelpdesk.events::lang.form.create'
+    redirect: 'whilesmarthelpdesk/events/events/update/:id'
+    redirectClose: whilesmarthelpdesk/events/events
+    flashSave: 'octo.timeline::lang.form.saved'
+update:
+    title: 'whilesmarthelpdesk.events::lang.form.update'
+    redirect: whilesmarthelpdesk/events/events
+    redirectClose: whilesmarthelpdesk/events/events
+    flashSave: 'whilesmarthelpdesk.events::lang.form.saved'
+    flashDelete: 'whilesmarthelpdesk.events::lang.form.deleted'
+preview:
+    title: 'whilesmarthelpdesk.events::lang.form.preview'

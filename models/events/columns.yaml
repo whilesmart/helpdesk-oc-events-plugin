@@ -1,0 +1,37 @@
+columns:
+    id:
+        label: 'whilesmarthelpdesk.events::lang.list.id'
+        type: number
+        searchable: true
+        sortable: true
+        width: 60px
+    name:
+        label: 'whilesmarthelpdesk.events::lang.list.title'
+        type: text
+        searchable: true
+        sortable: true
+    start_date:
+        label: 'whilesmarthelpdesk.events::lang.list.fromdate'
+        type: date
+        searchable: true
+        sortable: true
+    close_date:
+        label: 'whilesmarthelpdesk.events::lang.list.todate'
+        type: date
+        searchable: true
+        sortable: true
+    start_time:
+        label: 'whilesmarthelpdesk.events::lang.list.time'
+        type: time
+        searchable: true
+        sortable: true
+    location:
+        label: 'whilesmarthelpdesk.events::lang.list.city'
+        type: text
+        searchable: true
+        sortable: true
+    public:
+        label: 'whilesmarthelpdesk.events::lang.list.public'
+        type: partial
+        path: $/whilesmarthelpdesk/events/models/events/yesno.htm
+        width: 60px

@@ -1,0 +1,6 @@
+plugin:
+    name: 'whilesmarthelpdesk.events::lang.plugin.name'
+    description: 'whilesmarthelpdesk.events::lang.plugin.description'
+    author: 'WhileSmart HelpDesk'
+    icon: oc-icon-calendar-o
+    homepage: 'https://github.com/WhileSmart/helpdesk-oc-events-plugin'

@@ -1,0 +1,79 @@
+tabs:
+    fields:
+        name:
+            tab: 'whilesmarthelpdesk.events::lang.form.tab_1'
+            label: 'whilesmarthelpdesk.events::lang.form.title'
+            span: auto
+            placeholder: 'whilesmarthelpdesk.events::lang.form.title_placeholder'
+            required: true
+            type: text
+            commentAbove: 'whilesmarthelpdesk.events::lang.form.title_desc'
+        location:
+            tab: 'whilesmarthelpdesk.events::lang.form.tab_1'
+            label: 'whilesmarthelpdesk.events::lang.form.city'
+            span: auto
+            type: text
+            commentAbove: 'whilesmarthelpdesk.events::lang.form.city_desc'
+        start_date:
+            tab: 'whilesmarthelpdesk.events::lang.form.tab_1'
+            label: 'whilesmarthelpdesk.events::lang.form.fromdate'
+            mode: date
+            span: auto
+            required: 1
+            type: datepicker
+        close_date:
+             tab: 'whilesmarthelpdesk.events::lang.form.tab_1'
+             label: 'whilesmarthelpdesk.events::lang.form.todate'
+             mode: date
+             span: auto
+             type: datepicker
+        start_time:
+             tab: 'whilesmarthelpdesk.events::lang.form.tab_1'
+             label: 'whilesmarthelpdesk.events::lang.form.timefrom'
+             mode: time
+             span: auto
+             type: datepicker
+        close_time:
+             tab: 'whilesmarthelpdesk.events::lang.form.tab_1'
+             label: 'whilesmarthelpdesk.events::lang.form.timeto'
+             mode: time
+             span: auto
+             type: datepicker
+        poster:
+            tab: 'whilesmarthelpdesk.events::lang.form.tab_2'
+            label: 'whilesmarthelpdesk.events::lang.form.image'
+            type: mediafinder
+            mode: image
+            commentAbove: 'whilesmarthelpdesk.events::lang.form.desc_image'
+        registration_link:
+            tab: 'whilesmarthelpdesk.events::lang.form.tab_2'
+            label: 'whilesmarthelpdesk.events::lang.form.registration_link'
+            type: text
+            commentAbove: 'whilesmarthelpdesk.events::lang.form.desc_registration_link'
+        sponsors:
+            tab: 'whilesmarthelpdesk.events::lang.form.tab_2'
+            label: 'whilesmarthelpdesk.events::lang.form.sponsors'
+            type: relation
+            commentAbove: 'whilesmarthelpdesk.events::lang.form.desc_sponsors'
+        location_embed:
+            tab: 'whilesmarthelpdesk.events::lang.form.tab_2'
+            label: 'whilesmarthelpdesk.events::lang.form.map_code'
+            type: richeditor
+            size: small
+            commentAbove: 'whilesmarthelpdesk.events::lang.form.desc_map_code'
+        description:
+            tab: 'whilesmarthelpdesk.events::lang.form.tab_2'
+            label: 'whilesmarthelpdesk.events::lang.form.description'
+            size: large
+            span: full
+            type: richeditor
+            commentAbove: 'whilesmarthelpdesk.events::lang.form.desc_placeholder'
+        public:
+            tab: 'whilesmarthelpdesk.events::lang.form.tab_2'
+            label: 'whilesmarthelpdesk.events::lang.form.public'
+            span: full
+            default: 1
+            required: 0
+            type: switch
+            comment: 'whilesmarthelpdesk.events::lang.form.public_desc'
+       

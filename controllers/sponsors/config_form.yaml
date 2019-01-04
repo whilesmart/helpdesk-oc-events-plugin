@@ -1,0 +1,10 @@
+name: Sponsors
+form: $/whilesmarthelpdesk/events/models/sponsor/fields.yaml
+modelClass: whilesmarthelpdesk\events\Models\Sponsor
+defaultRedirect: whilesmarthelpdesk/events/sponsors
+create:
+    redirect: 'whilesmarthelpdesk/events/sponsors/update/:id'
+    redirectClose: whilesmarthelpdesk/events/sponsors
+update:
+    redirect: whilesmarthelpdesk/events/sponsors
+    redirectClose: whilesmarthelpdesk/events/sponsors

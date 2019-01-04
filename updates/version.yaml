@@ -1,0 +1,4 @@
+1.0.0:
+    - 'Initialize plugin.'
+    - create_events_table.php
+    - create_sponsors_table.php

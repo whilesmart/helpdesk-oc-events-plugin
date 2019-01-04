@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="page-header">
+       Events
+    </div>
+    {% for entry in events %}
+    <p class="lead"><strong>{{ entry.title }}</strong> {{ entry.date|raw }}&nbsp;</p>
+        <p class="event_time">{{ entry.time|raw }}</p>
+        <p class="event_city">{{ entry.city}}</p>
+        <p>{{ entry.short|raw }}</p>
+        <a href="{{entry.url}}"> See more</a>
+        {% if not loop.last %}<hr />{% endif %}
+    {% else %}
+       No events yet
+    {% endfor %}
+</div>

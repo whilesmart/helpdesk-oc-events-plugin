@@ -1,0 +1,21 @@
+tabs:
+    fields:
+        name:
+            label: Name
+            span: auto
+            type: text
+            comment: 'Sponsor Name'
+            tab: 'Details'
+        logo:
+            label: Logo
+            mode: file
+            span: auto
+            type: mediafinder
+            comment: 'Sponsor Logo'
+            tab: 'Details'
+        website:
+            label: 'Website URL'
+            span: auto
+            type: text
+            comment: 'Sponsor website link'
+            tab: 'Details'
