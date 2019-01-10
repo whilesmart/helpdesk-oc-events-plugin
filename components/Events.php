@@ -35,7 +35,7 @@ class Events extends ComponentBase
                 'title' => 'whilesmarthelpdesk.events::lang.events.detailpage',
                 'description' => 'whilesmarthelpdesk.events::lang.events.detailpagedesc',
                 'type' => 'dropdown',
-                'default' => '/'
+                'default' => 'events/'
             ],
             'pageNumber' => [
                 'title'       => 'whilesmarthelpdesk.events::lang.events.pagination_title',

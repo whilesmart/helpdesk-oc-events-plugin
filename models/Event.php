@@ -61,7 +61,7 @@ class Event extends Model
      */
      public function beforeSave()
      {
-        $this->slug = Str::slug($this->title);
+        $this->slug = Str::slug($this->name);
         if (!isset($this->user_id) || empty($this->user_id)) {
             $this->user_id = 0;
         }
@@ -76,7 +76,7 @@ class Event extends Model
     {
         $params = [
             'id'   => $this->id,
-            'alias' => $this->alias,
+            'slug' => $this->slug,
         ];
 
         //expose published year, month and day as URL parameters
